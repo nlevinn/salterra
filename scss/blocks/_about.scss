@@ -1,0 +1,61 @@
+.about {
+    background: linear-gradient(0deg, rgba(21, 56, 95, 0.8), rgba(21, 56, 95, 0.8));
+    padding-top: 46px;
+    padding-bottom: 11px;
+}
+
+.about_content{
+    display: flex;
+}
+.about_h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 130%;
+    color: #E5E5E5;
+    margin-bottom: 21px;
+}
+
+.we_items {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 130%;
+    color: #E5E5E5;
+}
+
+.we_items_p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 130%;
+    color: #E5E5E5;
+}
+
+.about_item {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    color: #E5E5E5;
+    text-decoration: none;
+    display: flex;
+    align-items:center;
+    margin-top: 21px;
+    img {
+        padding-right: 15px;
+    }
+}
+
+.we {
+    max-width: 560px;
+}
+
+.we_items_right {
+    display: flex;
+    justify-content: right;
+}
