@@ -1,5 +1,6 @@
 .about {
-    background: linear-gradient(0deg, rgba(21, 56, 95, 0.8), rgba(21, 56, 95, 0.8));
+
+    background: url(../../img/we.jpg) no-repeat;
     padding-top: 46px;
     padding-bottom: 11px;
 }
@@ -51,11 +52,80 @@
     }
 }
 
-.we {
+.we-about {
     max-width: 560px;
 }
 
 .we_items_right {
     display: flex;
     justify-content: right;
+}
+
+
+
+.about-video {
+    background: url(../../img/osn.png) no-repeat;
+    margin-left: 82px;
+    width: 72%;
+}
+
+.about-video_play_item {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 130%;
+    color: #E5E5E5;
+    margin-bottom: 21px;
+}
+
+.about-video_play {
+    padding-top: 237px;
+    max-width: 131px;
+    text-align: center;
+    padding-bottom: 122px;
+}
+
+.play_video {
+    box-sizing: border-box;
+    border: 1px solid rgba(231, 32, 32, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 100%;
+    padding-top: 14.62px;
+    padding-left: 12.42px;
+    padding-bottom: 11.29px;
+    padding-right: 13.55px;
+
+}
+
+.play {
+    width: 28.23px;
+    height: 28.23px;
+}
+
+.play-video_about {
+    background: #E72020;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 27px 25px;
+    border-radius: 100%;
+    display: block;
+    align-items: center;
+    width: 81.31px;
+    height: 81.31px;
+    margin: 0 auto;
+}
+
+.about-video_port_item {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 130%;
+    color: #E5E5E5;
+}
+
+.about-video_port {
+    text-align: center;
+    max-width: 138px;
+    padding-top: 180px;
 }
