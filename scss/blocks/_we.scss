@@ -5,7 +5,9 @@
 }
 
 .we_block_h1 {
-    display: -webkit-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .we_items_h1 {
@@ -18,8 +20,13 @@
     padding-right: 27px;
 }
 
+.we_items_item {
+    max-width: 535px;
+}
+
 .we_border {
     border: 2px solid #15385F;
+    height: 74px;
 }
 
 .we_items_item_p {
@@ -30,7 +37,6 @@
     line-height: 130%;
     color: #E72020;
     padding-left: 26px;
-    max-width: 539px;
     span {
         font-family: 'Montserrat';
         font-style: normal;
