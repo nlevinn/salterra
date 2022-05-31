@@ -63,4 +63,9 @@
     line-height: 130%;
     color: #15385F;
     text-decoration: none;
+    display: flex;
+    align-items: flex-end;
+    img {
+        margin-right: 15px;
+    }
 }

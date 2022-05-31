@@ -9,6 +9,11 @@
     font-family: Montserrat;
   }
 
+  *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+    }
 
 
 @import 'blocks/header';

@@ -34,4 +34,9 @@
     color: #15385F;
     text-decoration: none;
     padding-left: 9px;
+    display: flex;
+    align-items: flex-end;
+    img {
+        margin-right: 15px;
+    }
 }
