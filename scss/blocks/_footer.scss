@@ -53,6 +53,7 @@
     padding-top: 4px;
     padding-bottom: 4px;
     margin-bottom: 12px;
+    outline: none;
 }
 
 .wpcf7-submit {
@@ -80,8 +81,55 @@
 
 .footer_last {
     display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
 }
 
 .footer_two {
     background: #15385F;
+    padding-top: 69px;
+    padding-bottom: 119px;
 }
+
+.footer_descr {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 130%;
+    color: #E5E5E5;
+    margin-top: 20px;
+    max-width: 285px;
+    text-decoration: none;
+}
+
+.footer_logo {
+    padding-bottom: 10px;
+}
+
+.footer_menu {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 130%;
+    color: #E5E5E5;
+    text-decoration: none;
+}
+
+.footer_item_menu {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+.footer_icon {
+    padding-top: 7px;
+    padding-bottom: 3px;
+}
+
+.footer_descr:nth-child(3){
+    max-width: 400px;
+}
+
+.footer_descr:nth-child(4){
+    max-width: 181px;
+}
+

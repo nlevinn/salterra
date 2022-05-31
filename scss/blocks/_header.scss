@@ -1,16 +1,33 @@
 .menu {
     font-family: 'Montserrat';
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 17px;
-color: #E5E5E5;
-text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #E5E5E5;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.menu_one {
+    margin-left: 0px;
 }
 
 .nav_menu__items {
-    list-style-type: none;
     margin: 0 auto;
+}
+
+.nav_menu__items::marker {
+    color: #E5E5E5;
+}
+
+.nav_menu__items:nth-child(1) {
+    list-style-type: none;
+    margin-left: 0;
+}
+
+.nav_menu__items:last-child{
+    margin-right: 0px;
 }
 
 .nav_menu {
