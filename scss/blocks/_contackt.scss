@@ -1,0 +1,64 @@
+
+
+.__promo-title h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 140%;
+    color: #15385F;
+}
+
+.__promo-title p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 140%;
+    color: #15385F;
+    max-width: 660px;
+}
+
+.__promo-title {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.__promo-title span{
+    border: 2px solid #15385F;
+    border-top: 94px;
+    border-block-width: 60px;
+    margin-left: 77px;
+    margin-right: 69px;
+}
+
+.wrapper__contackt {
+    padding-top: 170px;
+    display: flex;
+}
+
+.wrapper__contackt .__item .__descr-contackt p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    color: #15385F;
+}
+
+.wrapper__contackt .__item .__descr-contackt p {
+    padding-bottom: 25px;
+    span {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 140%;
+        color: #15385F;
+    }
+}
+
+.wrapper__contackt .__item {
+    display: block;
+}
+
+.__descr-contackt {
+    padding-bottom: 40px;
+}
