@@ -1,5 +1,3 @@
-
-
 	swiperTabsNav = new Swiper('.swiper-tabs-nav', {
         spaceBetween: 0,
         slidesPerView: 'auto',
@@ -10,7 +8,6 @@
         watchOverflow: true,
         watchSlidesVisibility: true,
         watchSlidesProgress: true,
-        setWrapperSize: true,
     });
 
     // Swiper Content
@@ -92,6 +89,6 @@
     
     });
 
-    $(document).ready(function(){   
-        $("#email").inputmask("email")
-      });
+
+
+
