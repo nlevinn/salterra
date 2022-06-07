@@ -1,9 +1,9 @@
 
     const mySwiper = new Swiper(".hint", 
     {
-        slidesPerView: 'auto',
-      spaceBetween: 450,
+        slidesPerView: '1',
       loop: true,
+      setWrapperSize: true,
       loopFillGroupWithBlank: true,
       navigation: {
         nextEl: '.swiper-button-next',

@@ -194,7 +194,7 @@
                         Свяжитесь с нами любым удобным способом. Проконсультируем вас наиболее подробно, НЕ навязывая свои услуги. Будем рады возможности побороться за вас, как за клиента.
                     </p>
                     <div class="communication__btn">
-                        <button>
+                        <button class="open-popup">
                             ЗАКАЗАТЬ ЗВОНОК
                         </button>
                         <button>
@@ -521,6 +521,11 @@
                             </div>
                         </div>
                     </div>
+
+                    <div class="swiper-button-next">
+                        <img src="img/arrow.svg" alt="">
+                    </div>
+                    <div class="swiper-button-prev"><img src="img/arrow.svg" alt=""></div>
                     <h2>
                         «Соляные пещеры»: с пользой для ваших клиентов, с выгодой для вас!
                     </h2>
@@ -636,6 +641,78 @@
         </div>
     </footer>
 
+    <div class="overlay container">
+        <div class="wrapper__form">
+            <h2 class="modal__title">Заказать звонок</h2>
+            <form action="" class="form__items">
+                <input name="name" type="name" id="name" class="modal-form__input wpcf7-form-control"   required placeholder="Ваше имя*">
+              <input name="phone" type="tell" id="phone" class="modal-form__input wpcf7-form-control"   required placeholder="Ваш Телефон*">
+              <p>
+                Поля, отмеченные *, обязательны для заполнения.
+            </p>
+            <label for="#" class="modal_privacy">
+              <input type="checkbox" checked="checked"  required>
+              <p>Нажимая на кнопку, вы соглашаетесь с <a href=""> Соглашением </a> и <a href=""> Политикой конфиденциальности</a></p>
+            </label>
+              <button class="modal-form_btn wpcf7-submit">ОТПРАВИТЬ ЗАПРОС</button>
+            </form>
+          </div>
+          <div class="wrapper__form">
+            <h2 class="modal__title">Задать вопрос</h2>
+            <form action="" class="form__items">
+                <input name="name" type="name" id="name" class="modal-form__input wpcf7-form-control"   required placeholder="Ваше имя*">
+              <input name="phone" type="tell" id="phone" class="modal-form__input wpcf7-form-control"   required placeholder="Ваш Телефон*">
+              <input name="email" type="text" id="email" class="modal-form__input wpcf7-form-control"   required placeholder="Ваш E-mail*">
+              <textarea   name="" id="123" cols="30" rows="10" class="wpcf7-form-control text"  placeholder="Задайте ваш вопрос*"></textarea>
+              <p>
+                Поля, отмеченные *, обязательны для заполнения.
+            </p>
+            <label for="#" class="modal_privacy">
+              <input type="checkbox" checked="checked"  required>
+              <p>Нажимая на кнопку, вы соглашаетесь с <a href=""> Соглашением </a> и <a href=""> Политикой конфиденциальности</a></p>
+            </label>
+              <button class="modal-form_btn wpcf7-submit">ОТПРАВИТЬ</button>
+            </form>
+          </div>
+          <div class="wrapper__form">
+            <h2 class="modal__title">Заказать звонок</h2>
+            <form action="" class="form__items">
+                <input name="name" type="name" id="name" class="modal-form__input wpcf7-form-control"   required placeholder="Ваше имя*">
+              <input name="phone" type="tell" id="phone" class="modal-form__input wpcf7-form-control"   required placeholder="Ваш Телефон*">
+              <input name="email" type="text" id="email" class="modal-form__input wpcf7-form-control"   required placeholder="Ваш E-mail*">
+              <textarea   name="" id="123" cols="30" rows="10" class="wpcf7-form-control text"  placeholder="Ваше сообщение*"></textarea>
+              <p>
+                Поля, отмеченные *, обязательны для заполнения.
+            </p>
+            <label for="#" class="modal_privacy">
+              <input type="checkbox" checked="checked"  required>
+              <p>Нажимая на кнопку, вы соглашаетесь с <a href=""> Соглашением </a> и <a href=""> Политикой конфиденциальности</a></p>
+            </label>
+              <button class="modal-form_btn wpcf7-submit">ЗАКАЗАТЬ ЗВОНОК</button>
+            </form>
+          </div>
+          <div class="wrapper__form">
+            <h2 class="modal__title">Оставить заявку</h2>
+            <form action="" class="form__items">
+                <input name="name" type="name" id="name" class="modal-form__input wpcf7-form-control"   required placeholder="Ваше имя*">
+              <input name="phone" type="tell" id="phone" class="modal-form__input wpcf7-form-control"   required placeholder="Ваш Телефон*">
+              <input name="email" type="text" id="email" class="modal-form__input wpcf7-form-control"  placeholder="Ваш E-mail">
+              <input name="email" type="text" id="email" class="modal-form__input wpcf7-form-control"   required placeholder="Город монтажа*">
+              <input name="email" type="text" id="email" class="modal-form__input wpcf7-form-control"   required placeholder="Площадь помещения*">
+              <div class="input_wrapper" data-required="Максимум 2000 символов">
+                <textarea   name="" id="" cols="30" rows="10" class="wpcf7-form-control text"  placeholder="Оставьте ваши пожелания, мы их обязательно учтем (по дизайну, галогенератору, бюджету)"></textarea>
+              </div>
+              <p>
+                Поля, отмеченные *, обязательны для заполнения.
+            </p>
+            <label for="#" class="modal_privacy">
+              <input type="checkbox" checked="checked"  required>
+              <p>Нажимая на кнопку, вы соглашаетесь с <a href=""> Соглашением </a> и <a href=""> Политикой конфиденциальности</a></p>
+            </label>
+              <button class="modal-form_btn wpcf7-submit">ОТПРАВИТЬ ЗАПРОС</button>
+            </form>
+          </div>
+    </div>
 
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/swiper.js"></script>

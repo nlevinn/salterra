@@ -16,13 +16,11 @@
     
     var mySwiper = new Swiper(".slider__gallery", {
       loop: true,
-      paginationClickable: true,
       centeredSlides: true,
-      slidesPerView: '2.5',
-      spaceBetween : 50,
-      autoHeight: true,
-      cssWidthAndHeight: true,
-      autoResize: false,
+      slidesPerView: 'auto',
+      spaceBetween : 60,
+      initialSlide: 3,
+
       breakpoints :{
         768:{
           spaceBetweenSlides: 10

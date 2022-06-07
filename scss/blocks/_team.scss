@@ -21,15 +21,13 @@
 }
 
 .team_item__block {
-    max-width: 300px;
+    width: 300px;
     border-right: 1px solid #E5E5E5;
+    margin-left: 40px;
 }
 
 .team_item__block:last-child {
     border: none;
-}
-.qwerty {
-    padding-left: 40px;
 }
 
 .team_name {
@@ -60,4 +58,5 @@
     line-height: 130%;
     color: #E5E5E5;
     padding-top: 30px;
+    max-width: 240px;
 }

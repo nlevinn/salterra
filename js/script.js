@@ -90,5 +90,24 @@
     });
 
 
+let overlay = document.querySelector('.overlay');
+let wrapper__form = document.querySelector('.wrapper__form');
+let openPopupButtons = document.querySelectorAll('.open-popup'); 
+
+openPopupButtons.forEach((button) => {wrapper__form
+  button.addEventListener('click', (e) => {
+      e.preventDefault();
+      overlay.classList.add('overlay_active');
+      wrapper__form.classList.add('wrapper__form-active');
+  })
+});
+
+document.addEventListener('click', (e) => {
+  if(e.target === overlay) {
+    overlay.classList.remove('overlay_active');
+      popup.classList.remove('wrapper__form-active');
+  }
+});
+
 
 
