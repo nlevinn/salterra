@@ -1,5 +1,5 @@
 
-    const mySwiper = new Swiper(".hint", 
+    var mySwiper = new Swiper(".hint", 
     {
         slidesPerView: '1',
       loop: true,
@@ -10,3 +10,9 @@
         prevEl: '.swiper-button-prev',
       },
       });
+
+  
+
+
+
+

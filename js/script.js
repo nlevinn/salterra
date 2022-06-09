@@ -92,7 +92,7 @@
 
 let overlay = document.querySelector('.overlay');
 let wrapper__form = document.querySelector('.wrapper__form');
-let openPopupButtons = document.querySelectorAll('.open-popup'); 
+let openPopupButtons = document.querySelectorAll('.play-video_about'); 
 
 openPopupButtons.forEach((button) => {wrapper__form
   button.addEventListener('click', (e) => {
@@ -108,6 +108,18 @@ document.addEventListener('click', (e) => {
       popup.classList.remove('wrapper__form-active');
   }
 });
+
+var x = document.getElementById("contain");
+
+x.addEventListener("click", myFunction);
+
+function myFunction() {
+  var element = document.getElementById("nav");
+  element.classList.toggle("open");
+  
+  x.classList.toggle("change");
+}
+
 
 
 

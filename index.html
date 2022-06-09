@@ -14,7 +14,7 @@
 </head>
 <body>
     <header class="header">
-        <div class="header_one">
+        <div class="header_one" id="nav">
             <nav class="nav_list container">
                 <ul class="nav_menu">
                     <li class="nav_menu__items">
@@ -44,7 +44,8 @@
         <div class="container header_two">
             <div class="logo">
                 <a href="" class="logo_item">
-                    <img src="img/logo_png.png" alt="logo_png">
+                    <img src="img/logo_png.png" alt="logo_png" class="header_logo-one">
+                    <img src="img/footer_logo.png" alt="logo_png" class="header_logo-two">
                 </a>
             </div>
             <div class="header_number">
@@ -58,7 +59,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="nuber_call">
+                <div class="number_call">
                     <div class="number">
                         <a href="" class="phone_number">+7 929 106 02 06</a>
                     </div>
@@ -68,6 +69,9 @@
                         </a>
                     </div>
                 </div>
+            </div>
+            <div class="menu-burger__header" id="contain">
+                <span></span>
             </div>
         </div>
     </header>
@@ -178,15 +182,62 @@
                         <div class="swiper-button-prev"></div>
                         
                     </div>
- 
-                
-                <div class="promo_main-block">
-                    <p class="promo">
-                        Наша компания работает в штатном режиме, менеджеры на связи с 10.00 до 21.00 Мск 7 дней в неделю.
-                        <span>Оборудование отгружаем со склада в стандартные сроки. Мастера выезжают на монтаж во все регионы с соблюдением всех мер по противодействию распространению COVID-19.</span> 
+                    <div class="promo_main-block">
+                        <p class="promo">
+                            Наша компания работает в штатном режиме, менеджеры на связи с 10.00 до 21.00 Мск 7 дней в неделю.
+                            <span>Оборудование отгружаем со склада в стандартные сроки. Мастера выезжают на монтаж во все регионы с соблюдением всех мер по противодействию распространению COVID-19.</span> 
+                        </p>
+                    </div>
+            </div>
+        </section>
+        <section class="phone_main-block">
+            <div class="main__wrapper swiper swiper-container">
+
+                <div class="swiper-wrapper">
+                    <img src="img/slide.jpg" alt="room" class="swiper-slide">
+                    
+                </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="__item container">
+                    <h2>
+                        ПРОДАЮЩИЙ ОФФЕР ДЛЯ ОДНОГО <span></span> СЕГМЕНТА ЦА
+                    </h2>
+                    <p>
+                        Более подробное описание преложения, которое вы хотите дать этой аудитории.
                     </p>
+                    <p>
+                        Более подробное описание преложения, которое вы хотите дать этой аудитории.
+                    </p>
+                    <div class="__descr">
+                        <a href="">ПОДРОБНЕЕ</a>
+                    </div>
                 </div>
             </div>
+            <div class="main__wrapper-descr">
+                <div class="__item container">
+                    <div class="__descr">
+                        <a href="">ПРЕДПРИНИМАТЕЛЯМ</a>
+                    </div>
+                    <div class="__descr">
+                        <a href="">БИЗНЕСУ</a>
+                    </div>
+                    <div class="__descr">
+                        <a href="">ПЕЩЕРА ДЛЯ СЕБЯ</a>
+                    </div>
+                    <div class="__descr">
+                        <a href="">ПОДРЯДЧИКАМ</a>
+                    </div>
+                </div>
+            </div>
+        
+        <div class="promo_main-block">
+            <p class="promo container">
+                Наша компания работает в штатном режиме, менеджеры на связи с 10.00 до 21.00 Мск 7 дней в неделю.
+                <span>Оборудование отгружаем со склада в стандартные сроки. Мастера выезжают на монтаж во все регионы с соблюдением всех мер по противодействию распространению COVID-19.</span> 
+            </p>
+        </div>
         </section>
         <section class="about">
             <div class="container about_content">
@@ -219,15 +270,18 @@
                 </div>
                 <div class="about-video">
                     <div class="about-video_item">
+                        <div class="about_img__phone">
+                            <img src="img/osn.png" alt="people" >
+                        </div>
                         <div class="about-video_play">
                             <p class="about-video_play_item">
                                 СМОТРЕТЬ ВИДЕО О КОМПАНИИ
                             </p>
                             <div class="play_video">
                                 <div class="play_video_two">
-                                    <a href="https://www.youtube.com/watch?v=Knw2Ly9oS9k" class="play-video_about">
+                                    <button class="play-video_about">
                                         <img src="img/play.svg" alt="" class="play">
-                                    </a>
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -730,60 +784,62 @@
                 <h1 class="team_title">
                     НАША КОМАНДА
                 </h1>
-                <div class="team_item">
-                    <div class="team_item__block">
-                        <img src="img/team_img_one.jpg" alt="team_img" class="tem_img">
-                        <h3 class="team_name">
-                            Олег Власов
-                        </h3>
-                        <h4 class="team_work">
-                            Генеральный директор
-                        </h4>  
-                        <p class="team_work_p">
-                            Лично ведёт большинство проектов. Любит своё дело, потому что оно приносит не только деньги,  но и пользу обществу, как бы глобально это не звучало.
-                        </p>             
-                    </div>
-                    <div class="team_item__block">
-                        <div class="items">
-                            <img src="img/team_img_two.jpg" alt="team_img" class="team_img">  
+                <div class="team_item swiper swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide team_item__block">
+                            <img src="img/team_img_one.jpg" alt="team_img" class="tem_img">
                             <h3 class="team_name">
-                                Екатерина
+                                Олег Власов
                             </h3>
                             <h4 class="team_work">
-                                Менеджер по развитию, правая рука генерального директора
+                                Генеральный директор
                             </h4>  
                             <p class="team_work_p">
-                                Готовит коммерческие предложения, подбирает оборудование, обсуждает дизайн, помогает клиентам с рекламой.
-                            </p> 
-                        </div>                 
-                    </div>
-                    <div class="team_item__block">
-                        <div class="items">
-                            <img src="img/team_img_three.jpg" alt="team_img" class="team_img">  
-                            <h3 class="team_name">
-                                Антон
-                            </h3>
-                            <h4 class="team_work">
-                                Мастер-монтажник
-                            </h4>  
-                            <p class="team_work_p">
-                                Опытный, ответственный, педантичный мастер. Его конёк – пристенные конструкции с подсветкой. Антон очень красиво рисует и ювелирно выпиливает. 
-                            </p>
-                        </div>                
-                    </div>
-                    <div class="team_item__block">
-                        <div class="items">
-                            <img src="img/team_img_four.jpg" alt="team_img" class="team_img"> 
-                            <h3 class="team_name">
-                                Максим
-                            </h3>
-                            <h4 class="team_work">
-                                Мастер-монтажник
-                            </h4>  
-                            <p class="team_work_p">
-                                Творческий человек. Любит монтировать объёмные имитации природных соляных пещер. Объёмы у Максима получаются очень форменными.
-                            </p>
-                        </div>                
+                                Лично ведёт большинство проектов. Любит своё дело, потому что оно приносит не только деньги,  но и пользу обществу, как бы глобально это не звучало.
+                            </p>             
+                        </div>
+                        <div class="swiper-slide team_item__block">
+                            <div class="items">
+                                <img src="img/team_img_two.jpg" alt="team_img" class="team_img">  
+                                <h3 class="team_name">
+                                    Екатерина
+                                </h3>
+                                <h4 class="team_work">
+                                    Менеджер по развитию, правая рука генерального директора
+                                </h4>  
+                                <p class="team_work_p">
+                                    Готовит коммерческие предложения, подбирает оборудование, обсуждает дизайн, помогает клиентам с рекламой.
+                                </p> 
+                            </div>                 
+                        </div>
+                        <div class="swiper-slide team_item__block">
+                            <div class="items">
+                                <img src="img/team_img_three.jpg" alt="team_img" class="team_img">  
+                                <h3 class="team_name">
+                                    Антон
+                                </h3>
+                                <h4 class="team_work">
+                                    Мастер-монтажник
+                                </h4>  
+                                <p class="team_work_p">
+                                    Опытный, ответственный, педантичный мастер. Его конёк – пристенные конструкции с подсветкой. Антон очень красиво рисует и ювелирно выпиливает. 
+                                </p>
+                            </div>                
+                        </div>
+                        <div class="swiper-slide team_item__block">
+                            <div class="items">
+                                <img src="img/team_img_four.jpg" alt="team_img" class="team_img"> 
+                                <h3 class="team_name">
+                                    Максим
+                                </h3>
+                                <h4 class="team_work">
+                                    Мастер-монтажник
+                                </h4>  
+                                <p class="team_work_p">
+                                    Творческий человек. Любит монтировать объёмные имитации природных соляных пещер. Объёмы у Максима получаются очень форменными.
+                                </p>
+                            </div>                
+                        </div>
                     </div>
                 </div>
             </div>
@@ -802,32 +858,16 @@
                          </p>
                     </div>
                 </div>
-                <div class="reviews_video">
-                    <div class="reviews_video_item">
-                        <div class="play_video">
-                            <div class="play_video_two">
-                                <a href="https://www.youtube.com/watch?v=Knw2Ly9oS9k" class="play-video_about">
-                                    <img src="img/play.svg" alt="" class="play">
-                                </a>
-                            </div>
+                <div class="reviews_video swiper swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide reviews_video_item">
+                            <video src="video/Peter & Gwen┃hold on (Edit) (720p).mp4" controls width="100%" height="100%"></video>
                         </div>
-                    </div>
-                    <div class="reviews_video_item">
-                        <div class="play_video">
-                            <div class="play_video_two">
-                                <a href="https://www.youtube.com/watch?v=Knw2Ly9oS9k" class="play-video_about">
-                                    <img src="img/play.svg" alt="" class="play">
-                                </a>
-                            </div>
+                        <div class="swiper-slide reviews_video_item">
+                            <video src="video/Peter & Gwen┃hold on (Edit) (720p).mp4" controls width="100%"></video>
                         </div>
-                    </div>
-                    <div class="reviews_video_item">
-                        <div class="play_video">
-                            <div class="play_video_two">
-                                <a href="https://www.youtube.com/watch?v=Knw2Ly9oS9k" class="play-video_about">
-                                    <img src="img/play.svg" alt="" class="play">
-                                </a>
-                            </div>
+                        <div class="swiper-slide reviews_video_item">
+                            <video src="video/Peter & Gwen┃hold on (Edit) (720p).mp4" controls width="100%"></video>
                         </div>
                     </div>
                 </div>
@@ -922,6 +962,9 @@
                                 ОСТАЛИСЬ ВОПРОСЫ?
                             </h2>
                         </div>
+                        <div class="img__item">
+                            <img src="img/footer_img__Two.jpg" alt="woman">
+                        </div>
                         <div class="footer_item_text_p">
                             <p class="footer_item_text_descr">
                                 Нужен расчет стоимости проекта или информация об оборудовании?
@@ -947,59 +990,61 @@
             <div class="container footer_last">
                 <div class="footer_item">
                     <img src="img/footer_logo.png" alt="logo" class="footer_logo">
-                    <p class="footer_descr">
+                    <p class="footer_descr footer_descr__none">
                         © 2013-2021 | Сал-Терра - строительство соляных пещер, соляных комнат, галокамер
                     </p>
-                    <p class="footer_descr">
+                    <p class="footer_descr footer_descr__none">
                         Все права защищены. Перепечатка материалов и фотографий без согласования с владельцами сайта запрещена.
                     </p>
                 </div>
-                <div class="footer_item">
-                    <nav class="footer_nav">
-                        <ul class="footer_items_ul">
-                            <li class="footer_item_menu">
-                                <a href="" class="footer_menu">О НАС</a>
-                            </li>
-                            <li class="footer_item_menu">
-                                <a href="" class="footer_menu">НАШИ РАБОТЫ</a>
-                            </li>
-                            <li class="footer_item_menu">
-                                <a href="" class="footer_menu">ОТЗЫВЫ</a>
-                            </li>
-                            <li class="footer_item_menu">
-                                <a href="" class="footer_menu">СТАТЬИ</a>
-                            </li>
-                            <li class="footer_item_menu">
-                                <a href="" class="footer_menu">НАША КОМАНДА</a>
-                            </li>
-                        </ul>
-                    </nav>
+                <div class="footer__flex-item">
+                    <div class="footer_item">
+                        <nav class="footer_nav">
+                            <ul class="footer_items_ul">
+                                <li class="footer_item_menu">
+                                    <a href="" class="footer_menu">О НАС</a>
+                                </li>
+                                <li class="footer_item_menu">
+                                    <a href="" class="footer_menu">НАШИ РАБОТЫ</a>
+                                </li>
+                                <li class="footer_item_menu">
+                                    <a href="" class="footer_menu">ОТЗЫВЫ</a>
+                                </li>
+                                <li class="footer_item_menu">
+                                    <a href="" class="footer_menu">СТАТЬИ</a>
+                                </li>
+                                <li class="footer_item_menu">
+                                    <a href="" class="footer_menu">НАША КОМАНДА</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="footer_item">
+                        <nav class="footer_nav">
+                            <ul class="footer_items_ul">
+                                <li class="footer_item_menu">
+                                    <a href="" class="footer_menu">БИЗНЕС-ИДЕЯ</a>
+                                </li>
+                                <li class="footer_item_menu">
+                                    <a href="" class="footer_menu">ГОТОВОМУ БИЗНЕСУ</a>
+                                </li>
+                                <li class="footer_item_menu">
+                                    <a href="" class="footer_menu">ОБУЧЕНИЕ</a>
+                                </li>
+                                <li class="footer_item_menu">
+                                    <a href="" class="footer_menu">ГАЛОГЕНЕРАТОРЫ</a>
+                                </li>
+                                <li class="footer_item_menu">
+                                    <a href="" class="footer_menu">ГАЛЕРЕЯ</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
                 </div>
                 <div class="footer_item">
-                    <nav class="footer_nav">
-                        <ul class="footer_items_ul">
-                            <li class="footer_item_menu">
-                                <a href="" class="footer_menu">БИЗНЕС-ИДЕЯ</a>
-                            </li>
-                            <li class="footer_item_menu">
-                                <a href="" class="footer_menu">ГОТОВОМУ БИЗНЕСУ</a>
-                            </li>
-                            <li class="footer_item_menu">
-                                <a href="" class="footer_menu">ОБУЧЕНИЕ</a>
-                            </li>
-                            <li class="footer_item_menu">
-                                <a href="" class="footer_menu">ГАЛОГЕНЕРАТОРЫ</a>
-                            </li>
-                            <li class="footer_item_menu">
-                                <a href="" class="footer_menu">ГАЛЕРЕЯ</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="footer_item">
-                    <a href="" class="footer_descr">
+                    <p class="footer_descr footer_descr_phone">
                         Свяжитесь с нами
-                    </a>
+                    </p>
                     <div class="footer_icon">
                         <a href=""><img src="img/inst.png" alt="inst"></a>
                         <a href=""><img src="img/fb.png" alt="facebook"></a>
@@ -1016,21 +1061,34 @@
                             Соглашение об обработке персональных данных
                         </a>
                     </div>
+                    <p class="footer_descr footer_descr__phone">
+                        © 2013-2021 | Сал-Терра - строительство соляных пещер, соляных комнат, галокамер
+                    </p>
+                    <p class="footer_descr footer_descr__phone">
+                        Все права защищены. Перепечатка материалов и фотографий без согласования с владельцами сайта запрещена.
+                    </p>
                 </div>
             </div>
         </div>
     </footer>
-
     
+    <div class="overlay">
+        <div class="wrapper__form">
+            <video src="video/Peter & Gwen┃hold on (Edit) (720p).mp4" controls width="100%"></video>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="js/swiper.js"></script>
     <script src="js/swiper-bundle.min.js"></script>
-    
     <script src="js/script.js"></script>
-    
-    <script src="js/js.js"></script>
-    
     <script src="inputmask.js"></script>
+    <script src="js/js.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
+    
 
 </body>
 </html>
