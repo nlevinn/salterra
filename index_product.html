@@ -14,7 +14,7 @@
 </head>
 <body>
     <header class="header">
-        <div class="header_one">
+        <div class="header_one" id="nav">
             <nav class="nav_list container">
                 <ul class="nav_menu">
                     <li class="nav_menu__items">
@@ -44,7 +44,8 @@
         <div class="container header_two">
             <div class="logo">
                 <a href="" class="logo_item">
-                    <img src="img/logo_png.png" alt="logo_png">
+                    <img src="img/logo_png.png" alt="logo_png" class="header_logo-one">
+                    <img src="img/footer_logo.png" alt="logo_png" class="header_logo-two">
                 </a>
             </div>
             <div class="header_number">
@@ -68,6 +69,9 @@
                         </a>
                     </div>
                 </div>
+            </div>
+            <div class="menu-burger__header" id="contain">
+                <span></span>
             </div>
         </div>
     </header>
@@ -103,7 +107,7 @@
                         Устройство микроклимата соляных пещер «Витасоль» с энкодером
                     </div>
                     <div class="__wrapper">
-                        <div>
+                        <div class="product__img">
                             <img src="img/product_1.jpg" alt="product">
                         </div>
                         <div class="__item">
@@ -210,7 +214,7 @@
                         Аппарат для создания микроклимата соляных пещер GALOTECH - 4.0
                     </div>
                     <div class="__wrapper">
-                        <div>
+                        <div class="product__img">
                             <img src="img/product_2.jpg" alt="product">
                         </div>
                         <div class="__item">
@@ -316,7 +320,7 @@
                         Галогенератор (аэрогалитгенератор) АГГ-01 Аэросоль
                     </div>
                     <div class="__wrapper">
-                        <div>
+                        <div class="product__img">
                             <img src="img/product_3.jpg" alt="product">
                         </div>
                         <div class="__item">
@@ -433,7 +437,7 @@
                         Устройство микроклимата соляных пещер «Витасоль»
                     </div>
                     <div class="__wrapper">
-                        <div>
+                        <div class="product__img">
                             <img src="img/product_4.jpg" alt="product">
                         </div>
                         <div class="__item">
@@ -537,7 +541,7 @@
                         Устройство солевой гигиены «Галовита»
                     </div>
                     <div class="__wrapper">
-                        <div>
+                        <div class="product__img">
                             <img src="img/product_5.jpg" alt="product">
                         </div>
                         <div class="__item">
@@ -641,7 +645,7 @@
                         Галогенератор (Аэрогалитгенератор) АГГ-03
                     </div>
                     <div class="__wrapper">
-                        <div>
+                        <div class="product__img">
                             <img src="img/product_6.jpg" alt="product">
                         </div>
                         <div class="__item">
@@ -758,7 +762,7 @@
                         Аппарат сухой солевой аэрозольтерапии групповой дозирующий (галогенератор) АСА-01.3
                     </div>
                     <div class="__wrapper">
-                        <div>
+                        <div class="product__img">
                             <img src="img/product_7.jpg" alt="product">
                         </div>
                         <div class="__item">
@@ -876,7 +880,7 @@
                         Аппарат аэрозольный для спелео- и галотерапии (галогенератор) АСГ-01
                     </div>
                     <div class="__wrapper">
-                        <div>
+                        <div class="product__img">
                             <img src="img/product_8.jpg" alt="product">
                         </div>
                         <div class="__item">
@@ -994,7 +998,7 @@
                         Аэрогалит (аэросоль, галосоль)
                     </div>
                     <div class="__wrapper">
-                        <div>
+                        <div class="product__img">
                             <img src="img/product_9.jpg" alt="product">
                         </div>
                         <div class="__item">
@@ -1143,12 +1147,15 @@
                     <h3>
                         НУЖНА ПОМОЩЬ?
                     </h3>
+                    <div class="img__item">
+                        <img src="img/footer_img_three.jpg" alt="woman">
+                    </div>
                     <p>
                         Сообщите о вашей задаче/проблеме/идее
                         и мы предложим вам варианты ее решения.   
                     </p>
                     <p>
-                        Просто заполните форму справа.
+                        Просто заполните форму <span class="right">справа.</span> <span class="down">снизу.</span>
                     </p>
                 </div>
                 <div class="wrapper__form">
@@ -1169,55 +1176,58 @@
             <div class="container footer_last">
                 <div class="footer_item">
                     <img src="img/footer_logo.png" alt="logo" class="footer_logo">
-                    <p class="footer_descr">
+                    <p class="footer_descr footer_descr__phone">
                         © 2013-2021 | Сал-Терра - строительство соляных пещер, соляных комнат, галокамер
                     </p>
-                    <p class="footer_descr">
+                    <p class="footer_descr footer_descr__phone">
                         Все права защищены. Перепечатка материалов и фотографий без согласования с владельцами сайта запрещена.
                     </p>
                 </div>
-                <div class="footer_item">
-                    <nav class="footer_nav">
-                        <ul class="footer_items_ul">
-                            <li class="footer_item_menu">
-                                <a href="" class="footer_menu">О НАС</a>
-                            </li>
-                            <li class="footer_item_menu">
-                                <a href="" class="footer_menu">НАШИ РАБОТЫ</a>
-                            </li>
-                            <li class="footer_item_menu">
-                                <a href="" class="footer_menu">ОТЗЫВЫ</a>
-                            </li>
-                            <li class="footer_item_menu">
-                                <a href="" class="footer_menu">СТАТЬИ</a>
-                            </li>
-                            <li class="footer_item_menu">
-                                <a href="" class="footer_menu">НАША КОМАНДА</a>
-                            </li>
-                        </ul>
-                    </nav>
+                <div class="footer__flex-item">
+                    <div class="footer_item">
+                        <nav class="footer_nav">
+                            <ul class="footer_items_ul">
+                                <li class="footer_item_menu">
+                                    <a href="" class="footer_menu">О НАС</a>
+                                </li>
+                                <li class="footer_item_menu">
+                                    <a href="" class="footer_menu">НАШИ РАБОТЫ</a>
+                                </li>
+                                <li class="footer_item_menu">
+                                    <a href="" class="footer_menu">ОТЗЫВЫ</a>
+                                </li>
+                                <li class="footer_item_menu">
+                                    <a href="" class="footer_menu">СТАТЬИ</a>
+                                </li>
+                                <li class="footer_item_menu">
+                                    <a href="" class="footer_menu">НАША КОМАНДА</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="footer_item">
+                        <nav class="footer_nav">
+                            <ul class="footer_items_ul">
+                                <li class="footer_item_menu">
+                                    <a href="" class="footer_menu">БИЗНЕС-ИДЕЯ</a>
+                                </li>
+                                <li class="footer_item_menu">
+                                    <a href="" class="footer_menu">ГОТОВОМУ БИЗНЕСУ</a>
+                                </li>
+                                <li class="footer_item_menu">
+                                    <a href="" class="footer_menu">ОБУЧЕНИЕ</a>
+                                </li>
+                                <li class="footer_item_menu">
+                                    <a href="" class="footer_menu">ГАЛОГЕНЕРАТОРЫ</a>
+                                </li>
+                                <li class="footer_item_menu">
+                                    <a href="" class="footer_menu">ГАЛЕРЕЯ</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
                 </div>
-                <div class="footer_item">
-                    <nav class="footer_nav">
-                        <ul class="footer_items_ul">
-                            <li class="footer_item_menu">
-                                <a href="" class="footer_menu">БИЗНЕС-ИДЕЯ</a>
-                            </li>
-                            <li class="footer_item_menu">
-                                <a href="" class="footer_menu">ГОТОВОМУ БИЗНЕСУ</a>
-                            </li>
-                            <li class="footer_item_menu">
-                                <a href="" class="footer_menu">ОБУЧЕНИЕ</a>
-                            </li>
-                            <li class="footer_item_menu">
-                                <a href="" class="footer_menu">ГАЛОГЕНЕРАТОРЫ</a>
-                            </li>
-                            <li class="footer_item_menu">
-                                <a href="" class="footer_menu">ГАЛЕРЕЯ</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
+
                 <div class="footer_item">
                     <a href="" class="footer_descr">
                         Свяжитесь с нами
@@ -1238,6 +1248,12 @@
                             Соглашение об обработке персональных данных
                         </a>
                     </div>
+                    <p class="footer_descr footer_descr__phone">
+                        © 2013-2021 | Сал-Терра - строительство соляных пещер, соляных комнат, галокамер
+                    </p>
+                    <p class="footer_descr footer_descr__phone">
+                        Все права защищены. Перепечатка материалов и фотографий без согласования с владельцами сайта запрещена.
+                    </p>
                 </div>
             </div>
         </div>
