@@ -31,13 +31,23 @@
     var mySwiper = new Swiper(".slider__gallery", {
       loop: true,
       centeredSlides: true,
-      slidesPerView: 'auto',
-      spaceBetween : 60,
-      initialSlide: 3,
-
+      slidesPerView: '2.8',
+      spaceBetween : 20,
+      roundLengths: true,
+      loopAdditionalSlides: 30,
+      watchSlidesVisibility: true,
       breakpoints :{
+        998: {
+          slidesPerView: 'auto',
+        },
         768:{
-          spaceBetweenSlides: 10
+          slidesPerView: 'auto',
+        },
+        425:{
+          slidesPerView: "auto",
+        },
+        320:{
+          slidesPerView: "auto",
         }
       },
       navigation: {

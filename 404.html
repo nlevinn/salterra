@@ -11,20 +11,20 @@
 </head>
 <body>
     <header class="header">
-        <div class="header_one">
+        <div class="header_one" id="nav">
             <nav class="nav_list container">
                 <ul class="nav_menu">
                     <li class="nav_menu__items">
                         <a href="index.html" class="menu menu_one">ГЛАВНАЯ</a>
                     </li>
                     <li class="nav_menu__items">
-                        <a href="" class="menu">БИЗНЕС-ИДЕИ</a>
+                        <a href="buisnes.html" class="menu">БИЗНЕС-ИДЕИ</a>
                     </li>
                     <li class="nav_menu__items">
                         <a href="index_product.html" class="menu">ГАЛОГЕНЕРАТОРЫ</a>
                     </li>
                     <li class="nav_menu__items">
-                        <a href="" class="menu">ИСКУССТВЕННОЕ ОСВЕЩЕНИЕ</a>
+                        <a href="equipment.html" class="menu">ИСКУССТВЕННОЕ ОСВЕЩЕНИЕ</a>
                     </li>
                     <li class="nav_menu__items">
                         <a href="article.html" class="menu">НОВОСТИ И СТАТЬИ</a>
@@ -33,7 +33,7 @@
                         <a href="gallery.html" class="menu">ПОРТФОЛИО</a>
                     </li>
                     <li class="nav_menu__items">
-                        <a href="" class="menu">КОНТАКТЫ</a>
+                        <a href="contackt.html" class="menu">КОНТАКТЫ</a>
                     </li>
                 </ul>
             </nav>
@@ -41,7 +41,8 @@
         <div class="container header_two">
             <div class="logo">
                 <a href="" class="logo_item">
-                    <img src="img/logo_png.png" alt="logo_png">
+                    <img src="img/logo_png.png" alt="logo_png" class="header_logo-one">
+                    <img src="img/footer_logo.png" alt="logo_png" class="header_logo-two">
                 </a>
             </div>
             <div class="header_number">
@@ -66,6 +67,9 @@
                     </div>
                 </div>
             </div>
+            <div class="menu-burger__header" id="contain">
+                <span></span>
+            </div>
         </div>
     </header>
 
@@ -73,6 +77,15 @@
         <section class="article_promo">
             <div class="page__img">
                 <img src="img/404.png" alt="404">
+            </div>
+            <div class="page__img_phone">
+                <h2>
+                    ОШИБКА 404.
+                </h2>
+                <h3>
+                    Страница <span>не найдена.</span> 
+                </h3>
+                <img src="img/404_phone.jpg" alt="404">
             </div>
             <div class="container">
                 <div class="page__text">
@@ -95,12 +108,15 @@
                     <h3>
                         НУЖНА ПОМОЩЬ?
                     </h3>
+                    <div class="img__item">
+                        <img src="img/footer_img_three.jpg" alt="woman">
+                    </div>
                     <p>
                         Сообщите о вашей задаче/проблеме/идее
                         и мы предложим вам варианты ее решения.   
                     </p>
                     <p>
-                        Просто заполните форму справа.
+                        Просто заполните форму <span class="right">справа.</span> <span class="down">снизу.</span>
                     </p>
                 </div>
                 <div class="wrapper__form">
@@ -121,57 +137,60 @@
             <div class="container footer_last">
                 <div class="footer_item">
                     <img src="img/footer_logo.png" alt="logo" class="footer_logo">
-                    <p class="footer_descr">
+                    <p class="footer_descr footer_descr__none">
                         © 2013-2021 | Сал-Терра - строительство соляных пещер, соляных комнат, галокамер
                     </p>
-                    <p class="footer_descr">
+                    <p class="footer_descr footer_descr__none">
                         Все права защищены. Перепечатка материалов и фотографий без согласования с владельцами сайта запрещена.
                     </p>
                 </div>
-                <div class="footer_item">
-                    <nav class="footer_nav">
-                        <ul class="footer_items_ul">
-                            <li class="footer_item_menu">
-                                <a href="" class="footer_menu">О НАС</a>
-                            </li>
-                            <li class="footer_item_menu">
-                                <a href="" class="footer_menu">НАШИ РАБОТЫ</a>
-                            </li>
-                            <li class="footer_item_menu">
-                                <a href="" class="footer_menu">ОТЗЫВЫ</a>
-                            </li>
-                            <li class="footer_item_menu">
-                                <a href="" class="footer_menu">СТАТЬИ</a>
-                            </li>
-                            <li class="footer_item_menu">
-                                <a href="" class="footer_menu">НАША КОМАНДА</a>
-                            </li>
-                        </ul>
-                    </nav>
+                <div class="footer__flex-item">
+                    <div class="footer_item">
+                        <nav class="footer_nav">
+                            <ul class="footer_items_ul">
+                                <li class="footer_item_menu">
+                                    <a href="" class="footer_menu">О НАС</a>
+                                </li>
+                                <li class="footer_item_menu">
+                                    <a href="" class="footer_menu">НАШИ РАБОТЫ</a>
+                                </li>
+                                <li class="footer_item_menu">
+                                    <a href="" class="footer_menu">ОТЗЫВЫ</a>
+                                </li>
+                                <li class="footer_item_menu">
+                                    <a href="" class="footer_menu">СТАТЬИ</a>
+                                </li>
+                                <li class="footer_item_menu">
+                                    <a href="" class="footer_menu">НАША КОМАНДА</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="footer_item">
+                        <nav class="footer_nav">
+                            <ul class="footer_items_ul">
+                                <li class="footer_item_menu">
+                                    <a href="" class="footer_menu">БИЗНЕС-ИДЕЯ</a>
+                                </li>
+                                <li class="footer_item_menu">
+                                    <a href="" class="footer_menu">ГОТОВОМУ БИЗНЕСУ</a>
+                                </li>
+                                <li class="footer_item_menu">
+                                    <a href="" class="footer_menu">ОБУЧЕНИЕ</a>
+                                </li>
+                                <li class="footer_item_menu">
+                                    <a href="" class="footer_menu">ГАЛОГЕНЕРАТОРЫ</a>
+                                </li>
+                                <li class="footer_item_menu">
+                                    <a href="" class="footer_menu">ГАЛЕРЕЯ</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
                 </div>
+
                 <div class="footer_item">
-                    <nav class="footer_nav">
-                        <ul class="footer_items_ul">
-                            <li class="footer_item_menu">
-                                <a href="" class="footer_menu">БИЗНЕС-ИДЕЯ</a>
-                            </li>
-                            <li class="footer_item_menu">
-                                <a href="" class="footer_menu">ГОТОВОМУ БИЗНЕСУ</a>
-                            </li>
-                            <li class="footer_item_menu">
-                                <a href="" class="footer_menu">ОБУЧЕНИЕ</a>
-                            </li>
-                            <li class="footer_item_menu">
-                                <a href="" class="footer_menu">ГАЛОГЕНЕРАТОРЫ</a>
-                            </li>
-                            <li class="footer_item_menu">
-                                <a href="" class="footer_menu">ГАЛЕРЕЯ</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="footer_item">
-                    <a href="" class="footer_descr">
+                    <a href="" class="footer_descr footer_descr_phone">
                         Свяжитесь с нами
                     </a>
                     <div class="footer_icon">
@@ -190,6 +209,12 @@
                             Соглашение об обработке персональных данных
                         </a>
                     </div>
+                    <p class="footer_descr footer_descr__phone">
+                        © 2013-2021 | Сал-Терра - строительство соляных пещер, соляных комнат, галокамер
+                    </p>
+                    <p class="footer_descr footer_descr__phone">
+                        Все права защищены. Перепечатка материалов и фотографий без согласования с владельцами сайта запрещена.
+                    </p>
                 </div>
             </div>
         </div>
