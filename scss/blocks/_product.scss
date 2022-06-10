@@ -253,6 +253,7 @@
     align-items:center;
     border: none;
     margin-top: 21px;
+    cursor: pointer;
         img {
             margin-right: 10px;
         }
@@ -267,6 +268,7 @@
     text-decoration: none;
     display: flex;
     align-items:flex-end;
+    max-width: 200px;
     img {
         margin-left: 26px;
     }
@@ -404,4 +406,14 @@
 
 .wrapper .__info {
     width: 300px;
+}
+
+.product .__item-btn .__descr-btn {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+    color: #15385F;
+    span {
+        font-weight: 700;
+    }
 }
