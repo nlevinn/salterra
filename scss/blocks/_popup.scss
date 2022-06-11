@@ -18,13 +18,13 @@
 }
 
 .overlay .wrapper__form .form__items input{
-    width: 500px;
     padding: 9px 23px;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 30px;
     color: #15385F;
+    width: 100%;
 }
 
 .overlay .wrapper__form .form__items input::placeholder{
@@ -33,17 +33,18 @@
     font-size: 16px;
     line-height: 30px;
     color: #15385F;
+
 }
 
 .overlay .wrapper__form .form__items textarea{
     height: 120px;
-    width: 500px;
     padding: 10px 23px;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 30px;
     color: #15385F;
+    max-width: 400px;
 }
 
 .overlay .wrapper__form .form__items textarea::placeholder{
@@ -95,13 +96,15 @@
     max-width: 600px;
     padding: 39px 50px 60px 50px;
     margin-bottom: 15px;
-    display: none;
+    display: block;
     margin: 0 auto;
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
 }
+
+
 
 .overlay {
     position: fixed;
@@ -153,3 +156,4 @@ input[type="checkbox"]:checked {
 .overlay_active {
     display: block;
 }
+

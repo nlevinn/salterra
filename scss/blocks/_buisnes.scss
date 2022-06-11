@@ -118,11 +118,11 @@
     display: block;
 }
 
-.reasons__wrapper .__item:first-child {
+.busines .reasons__wrapper .__item:first-child {
     max-width: 458px;
 }
 
-.reasons__wrapper .__item:last-child {
+.busines .reasons__wrapper .__item:nth-child(2) {
     max-width: 600px;
 }
 
