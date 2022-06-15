@@ -11,16 +11,19 @@
       },
             breakpoints :{
         998: {
-          spaceBetween : 20,
+          spaceBetween : false,
         },
         768:{
           spaceBetween : 20,
+          setWrapperSize: false,
         },
         425:{
           spaceBetween : 20,
+          setWrapperSize: false,
         },
         320:{
           spaceBetween : 20,
+          setWrapperSize: false,
         }
       },
       });

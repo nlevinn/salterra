@@ -22,6 +22,7 @@
         thumbs: {
             swiper: swiperTabsNav,
         },
+        
         navigation: {
             nextEl: ".swiper-button-next",
             prevEl: ".swiper-button-prev",

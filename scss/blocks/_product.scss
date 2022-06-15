@@ -136,7 +136,15 @@
 .__price {
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 5px;
 }
+
+.__price p:first-child{
+    margin-right: 16px;
+    margin-bottom: -3px;
+}
+
 
 .__item {
     display: flex;
@@ -197,12 +205,15 @@
     line-height: 130%;
     color: #15385F;
     max-width: 128px;
+    display: flex;
+    align-items: baseline;
     span {
         font-style: normal;
         font-weight: 500;
         font-size: 10px;
         line-height: 130%;
         color: #15385F;
+        margin-left: 4px;
     }
 }
 

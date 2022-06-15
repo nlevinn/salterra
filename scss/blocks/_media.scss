@@ -4,7 +4,23 @@
         display: none;
     }
 
+    .__item-phone {
+        img {
+            display: none;
+        }
+    }
+
+    .advantages .__item-phone {
+        img {
+            display: none;
+        }
+    }
+
     .requirements .__item {
+        display: block;
+    }
+
+    .gal_phone_two {
         display: none;
     }
 
@@ -87,6 +103,7 @@
     .article__buisnes {
         flex-direction: column;
     }
+
 
     .requirements .__item {
         display: none;
@@ -181,7 +198,13 @@
     }
 
     .reasons__items .wrapper .__item {
-        margin-bottom: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 48px;
+    }
+    .reasons__items .wrapper .__item:last-child {
+        margin-left: auto;
+        margin-right: auto;
     }
 
 
@@ -578,6 +601,7 @@
     .article__buisnes .item__buisnes .descr__busines {
         max-width: 748px;
     }
+
     .article__buisnes .title__busines h3 {
         margin-right: 0px;
     }
@@ -1255,6 +1279,12 @@
         display: none;
     }
 
+    .logo {
+        width: 133px;
+        height: 29px;
+        background: url(../../img/footer_logo.png);
+        background-size: 100%;
+    }
 
 
 
@@ -1300,8 +1330,10 @@
     }
 
     .wrapper__info .wrapper {
-        flex-direction: column;
-        align-items: center;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        flex-wrap: wrap;
     }
 
     .article__buisnes .title__busines h3 {
@@ -3043,6 +3075,18 @@
 }
 
 @media screen and (max-width: 425px) { 
+    
+    .equipment__title .wrapper .__item div img {
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+    .equipment__title .wrapper_two .__item {
+        margin-right: 0px;
+    }
+
+    .__price p:first-child {
+margin-right: 6px;
+    }
     .main__wrapper .__item p {
         margin-left: 10px;
         margin-right: 10px;
@@ -3388,6 +3432,11 @@
 
     .__item-article {
         max-width: 300px;
+        margin-right: 0px;
+    }
+
+    .__item-article:nth-child(3) {
+        margin-right: 0px;
     }
 
     ///cart_product///
@@ -3417,6 +3466,9 @@
 
     .wrapper__info .wrapper {
         justify-content: space-between;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: flex-start;
     }
 
 
@@ -3673,7 +3725,14 @@
     }
 }
 
-@media screen and (max-width: 375px) {  
+@media screen and (max-width: 375px) { 
+    
+    
+    .logo {
+        width: 89px;
+        background: url(../../img/footer_logo.png);
+        background-size: 100%;
+    }
     ///equipment.html///
 
     .promo_product .__item .__title h2 {
@@ -3688,13 +3747,13 @@
 
     .main__wrapper-descr .__item a::before {
         content: '';
-        left: 87%;
+        left: 85%;
         top: 65%;
     }
 
     .main__wrapper-descr .__item a::after{
         content: '';
-        left: 97%;
+        left: 95%;
         top: 50%;
     } 
 
@@ -3977,7 +4036,7 @@
 
     .about-video_play {
         top: -18%;
-        left: -10%;
+        left: -13%;
     }
 
     .we_block_info {

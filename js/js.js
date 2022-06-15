@@ -30,12 +30,13 @@
     
     var mySwiper = new Swiper(".slider__gallery", {
       loop: true,
+      slidesPerView: 'auto',
+      spaceBetween: 120,
+      setWrapperSize: true,
+      watchOverflow: true,
       centeredSlides: true,
-      slidesPerView: '2.8',
-      spaceBetween : 20,
-      roundLengths: true,
-      loopAdditionalSlides: 30,
-      watchSlidesVisibility: true,
+      loopAdditionalSlides: 1,
+      centeredSlidesBounds: true,
       breakpoints :{
         998: {
           slidesPerView: 'auto',

@@ -123,6 +123,10 @@
 .footer_icon {
     padding-top: 7px;
     padding-bottom: 3px;
+    display: flex;
+    a {
+        margin-right: 5px;
+    }
 }
 
 .footer_descr:nth-child(3){
@@ -191,4 +195,47 @@
 
 .footer__flex-item {
     display: flex;
+}
+
+.footer_logo {
+    width: 133px;
+    height: 44px;
+    background: url(../../img/footer_logo.png);
+    margin-bottom: 30px;
+    img {
+        display: none;
+    }
+}
+
+.inst_ico {
+    width: 30px;
+    height: 30px;
+    background: url(../../img/inst.png);
+}
+
+.fb_ico {
+    width: 30px;
+    height: 30px;
+    background: url(../../img/fb.png);
+}
+.vk_ico {
+    width: 30px;
+    height: 30px;
+    background: url(../../img/vk.png);
+}
+.tg_ico {
+    width: 30px;
+    height: 30px;
+    background: url(../../img/tg.png);
+}
+.wa_ico {
+    width: 30px;
+    height: 30px;
+    background: url(../../img/wa.png);
+}
+
+.vb_ico {
+    width: 30px;
+    height: 30px;
+    background: url(../../img/viber.png);
 }
