@@ -6,7 +6,6 @@
 
 .we_block_h1 {
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
@@ -21,7 +20,11 @@
 }
 
 .we_items_item {
-    max-width: 535px;
+    max-width: 617px;
+}
+
+.work .we_items_item {
+    max-width: 530px;
 }
 
 .we_border {
@@ -44,6 +47,10 @@
         font-size: 24px;
         line-height: 130%;
         color: #E72020;
+        display: flex;
+    }
+    span:last-child {
+        display: contents;
     }
 }
 
@@ -64,6 +71,7 @@
     padding-bottom: 140px;
 }
 
+
 .we_block_info_h2 {
     font-family: 'Montserrat';
     font-style: normal;
@@ -74,6 +82,14 @@
     padding-top: 56px;
 }
 
+.we_block_info__items:nth-child(4) {
+    .we_block_info_h2 {
+        max-width: 230px;
+    }
+    .we_block_info_padding {
+        padding-top: 19px;
+    }
+}
 
 
 .we_block_info_p {
