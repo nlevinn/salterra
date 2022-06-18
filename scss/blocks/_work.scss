@@ -24,6 +24,18 @@
     display: contents;
 }
 
+.swiper-work-next {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+}
+
+.swiper-work-prev {
+    position: absolute;
+    top: 50%;
+    right: 25%;
+}
+
 .slider_work_text {
     background: #15385F;
     padding-top: 45px;

@@ -747,15 +747,25 @@
 
 .hint .swiper-button-next {
     background-image: none;
-    top: 40%;
-    right: 55px;
+    top: 37%;
+    right: 7%;
+    width: 40px;
+    height: 40px;
+    img {
+        width: 100%;
+    }
 }
 
 .hint .swiper-button-prev {
     background-image: none;
     transform: rotate(180deg);
-    top: 40%;
-    left: 48px;
+    top: 37%;
+    left: 7%;
+    width: 40px;
+    height: 40px;
+    img {
+        width: 100%;
+    }
 }
 
 .busines img {

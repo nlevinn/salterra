@@ -7,15 +7,22 @@
       loop: true,
       loopAdditionalSlides: 30,
       navigation: {
-        nextEl: ".swiper-phone-next",
-        prevEl: ".swiper-phone-prev"
+        nextEl: ".swiper-work-next",
+        prevEl: ".swiper-work-prev"
       },
       breakpoints :{
         998: {
           slidesPerView: 2.2,
         },
         768:{
-          slidesPerView: 1.5,
+          slidesPerView: 1.2,
+          centeredSlides: true,
+          loopAdditionalSlides: 1,
+          centeredSlidesBounds: true,
+          navigation: {
+            nextEl: ".swiper-phone-next",
+            prevEl: ".swiper-phone-prev"
+          },
         },
         425:{
           slidesPerView: "auto",
@@ -141,5 +148,3 @@
       })
        
 
-
-  

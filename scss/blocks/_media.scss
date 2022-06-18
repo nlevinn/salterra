@@ -104,6 +104,14 @@
         flex-direction: column;
     }
 
+    .swiper-work-next {
+        display: none;
+    }
+
+    .swiper-work-prev {
+        display: none;
+    }
+
 
     .requirements .__item {
         display: none;
@@ -1719,7 +1727,7 @@
         top: 95%;
         width: 19px;
         height: 19px;
-        left: 125px;
+        left: 74px;
         margin-top: calc(0px - (var(--swiper-navigation-size)/ 2));
         z-index: 10;
         cursor: pointer;

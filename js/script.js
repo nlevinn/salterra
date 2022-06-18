@@ -103,10 +103,17 @@ openPopupButtons.forEach((button) => {wrapper__form
   })
 });
 
+function closeModal() {
+  document.getElementById('.overlay').style.display = "none";
+  
+}
+
 document.addEventListener('click', (e) => {
   if(e.target === overlay) {
+    document.getElementById("youVideoId").pause();
     overlay.classList.remove('overlay_active');
       popup.classList.remove('wrapper__form-active');
+      
   }
 });
 
