@@ -15,7 +15,17 @@
           slidesPerView: 2.2,
         },
         768:{
-          slidesPerView: 1.2,
+          slidesPerView: 1.8,
+          centeredSlides: true,
+          loopAdditionalSlides: 1,
+          centeredSlidesBounds: true,
+          navigation: {
+            nextEl: ".swiper-phone-next",
+            prevEl: ".swiper-phone-prev"
+          },
+        },
+        574:{
+          slidesPerView: 1.5,
           centeredSlides: true,
           loopAdditionalSlides: 1,
           centeredSlidesBounds: true,
@@ -106,6 +116,7 @@
               },
               320:{
                 slidesPerView: "auto",
+                centeredSlides: true,
               }
             },
             });
