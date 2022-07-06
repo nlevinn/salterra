@@ -1,4 +1,4 @@
-.overlay .wrapper__form h2{
+ .wrapper__form h2{
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
@@ -8,7 +8,7 @@
     margin-bottom: 35px;
 }
 
-.overlay .wrapper__form .form__items p{
+ .wrapper__form .form__items p{
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -17,7 +17,7 @@
     margin-left: 26px;
 }
 
-.overlay .wrapper__form .form__items input{
+.wrapper__form .form__items input{
     padding: 9px 23px;
     font-style: normal;
     font-weight: 500;
@@ -27,7 +27,7 @@
     width: 100%;
 }
 
-.overlay .wrapper__form .form__items input::placeholder{
+ .wrapper__form .form__items input::placeholder{
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -36,7 +36,7 @@
 
 }
 
-.overlay .wrapper__form .form__items textarea{
+ .wrapper__form .form__items textarea{
     height: 120px;
     padding: 10px 23px;
     font-style: normal;
@@ -44,15 +44,18 @@
     font-size: 16px;
     line-height: 30px;
     color: #15385F;
-    max-width: 400px;
+    max-width: 100%;
+    width: 100%;
+    text-align: left;
 }
 
-.overlay .wrapper__form .form__items textarea::placeholder{
+.wrapper__form .form__items textarea::placeholder{
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 30px;
     color: #15385F;
+    text-align: left;
 }
 
 
@@ -72,16 +75,16 @@
      transform: translateY(-50%);
  }
 
-.overlay .wrapper__form .form__items .modal_privacy{
+ .wrapper__form .form__items .modal_privacy{
     display: flex;
     margin-left: 26px;
     margin-top: 11px;
 }
-.overlay .wrapper__form .form__items .modal_privacy p{
+ .wrapper__form .form__items .modal_privacy p{
     margin-left: 0px;
 }
 
-.overlay .wrapper__form .form__items .modal_privacy input{
+ .wrapper__form .form__items .modal_privacy input{
     width: 30px;
     padding: 0;
     margin-top: 8px;
@@ -106,17 +109,7 @@
 
 
 
-.overlay {
-    position: fixed;
-    overflow: auto;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0,0,0,0.5);
-    z-index: 1;
-    display: none;
-}
+
 
 input[type="checkbox"] {
     -webkit-appearance: none;
@@ -153,7 +146,63 @@ input[type="checkbox"]:checked {
     display: block;
 }
 
-.overlay_active {
+
+
+.modal.active,
+.overlay.active{
     display: block;
+    overflow: hidden;
+    overflow: auto;
 }
 
+.overlay {
+    opacity: 0;
+    visibility: hidden;
+    position: fixed;
+
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 20;
+    transition: .3s all;
+    padding-bottom: 30px;
+ }
+ 
+ 
+ 
+ .modal {
+    overflow-y: auto;
+    opacity: 0;
+    visibility: hidden;
+    background: #EDEDED;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    max-width: 600px;
+    padding: 39px 50px 60px 50px;
+    margin-bottom: 15px;
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+ }
+
+ .modal.active,
+.overlay.active{
+   opacity: 1;
+   visibility: visible;
+   overflow-y: auto;
+   display: block;
+}
+
+.overlay_foure {
+    overflow-y: auto;
+}
+
+body.modal.active.overlay.active {
+    overflow: hidden;
+}

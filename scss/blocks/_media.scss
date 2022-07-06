@@ -1,3 +1,18 @@
+@media screen and (max-width:1600px) {
+    .overlay_foure .wrapper__form_foure {
+        top: 60%;
+        margin-bottom: 50px;
+        display: none;
+    }
+    .modal.active,
+    .overlay.active{
+       opacity: 1;
+       visibility: visible;
+       overflow-y: auto;
+       display: block;
+    }
+}
+
 @media screen and (min-width: 1200px){
 
     .main_product_none .__title .title__arrow:before {
@@ -110,9 +125,15 @@
 }
 
 @media screen and (max-width: 1200px) {
+    .overlay_foure {
+        overflow: none;
+    }
     ///buisnes///
     .article__buisnes {
         flex-direction: column;
+    }
+    .modal {
+        width: 80%;
     }
     .gal_phone_two {
         display: none;
@@ -1317,6 +1338,10 @@
     .article__buisnes .item__buisnes .descr__busines {
         max-width: 556px;
     }
+
+    .modal {
+        width: 80%;
+    }
     .requirements .__item {
         display: none;
     }
@@ -2392,9 +2417,9 @@
 
 @media screen and (max-width: 576px) {
 
-    .overlay .wrapper__form {
+     .modal {
         padding: 28px 15px;
-        width: 300px;
+        width: 90%;
     }
 
     .overlay .wrapper__form .form__items textarea::placeholder{
@@ -2421,20 +2446,20 @@
         font-size: 16px;
     }
 
-    .overlay .wrapper__form .form__items .modal_privacy p {
+     .wrapper__form .form__items .modal_privacy p {
         font-size: 14px;
         line-height: 120%;
     }
 
-    .overlay .wrapper__form .form__items .modal_privacy input {
+     .wrapper__form .form__items .modal_privacy input {
         width: 50px;
     }
 
-    .overlay .wrapper__form .form__items .modal_privacy {
+     .wrapper__form .form__items .modal_privacy {
         margin-left: 10px;
     }
 
-    .overlay .wrapper__form .form__items p {
+     .wrapper__form .form__items p {
         margin-left: 0px;
     }
 
@@ -3170,10 +3195,9 @@ margin-right: 6px;
         margin-left: 10px;
         margin-right: 10px;
     }
-    .wrapper__form {
-        margin-left: 10px;
-        margin-right: 10px;
-        width: 100%;
+    .modal{
+
+        width: 90%;
     }
 
     .form__items input {
